@@ -55,33 +55,3 @@ from tscv import gap_train_test_split
 X, y = np.arange(20).reshape((10, 2)), np.arange(10)
 X_train, X_test, y_train, y_test = gap_train_test_split(X, y, test_size=2, gap_size=2)
 ```
-
-## Contributing
-- Report bugs in the issue tracker
-- Express your use cases in the issue tracker
-
-## Documentations
-- [tscv.readthedocs.io](https://tscv.readthedocs.io)
-
-## Acknowledgments
-
-- I would like to thank Jeffrey Racine and Christoph Bergmeir for the helpful discussion.
-
-## License
-BSD-3-Clause
-
-## Citation
-
-Wenjie Zheng. (2021). Time Series Cross-Validation (TSCV): an extension for scikit-learn. Zenodo. http://doi.org/10.5281/zenodo.4707309
-
-```latex
-@software{zheng_2021_4707309,
-  title={{Time Series Cross-Validation (TSCV): an extension for scikit-learn}},
-  author={Zheng, Wenjie},
-  month={april},
-  year={2021},
-  publisher={Zenodo},
-  doi={10.5281/zenodo.4707309},
-  url={http://doi.org/10.5281/zenodo.4707309}
-}
-```
