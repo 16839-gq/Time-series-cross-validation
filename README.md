@@ -1,4 +1,4 @@
-# TSCV: Time Series Cross-Validation
+# Time Series Cross-Validation
 
 This repository is a [scikit-learn](https://scikit-learn.org) extension for time series cross-validation.
 It introduces **gaps** between the training set and the test set, which mitigates the temporal dependence of time series and prevents information leakage.
